@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.352a283a.css",
+    "main.js": "/static/js/main.b94e54a8.js",
+    "static/media/FundoSite2.png": "/static/media/FundoSite2.0b3f593a211b6c7a4e49.png",
+    "static/media/FundoSite.png": "/static/media/FundoSite.029cbe920a03d2a9ea41.png",
+    "index.html": "/index.html",
+    "main.352a283a.css.map": "/static/css/main.352a283a.css.map",
+    "main.b94e54a8.js.map": "/static/js/main.b94e54a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.352a283a.css",
+    "static/js/main.b94e54a8.js"
+  ]
+}

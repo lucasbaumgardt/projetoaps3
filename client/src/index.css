@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Ajusta imagens no redimencionamento*/
+
+img, object, embed, video {
+	max-width:100%;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  /* --primary-color: #2c2c2c; */
+  --primary-color: #ededed;
+  --secondary-color: #F6F6F6;
+  --terciary-color: #48a73b;
+  --quad-color: #333333;
+
+  --primary-font: 'Montserrat', sans-serif; 
+  --secondary-font: 'Krona One', sans-serif; 
+}
+
+body{
+  /*height: 100vh;*/
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+  /*color: #F6F6F6;*/
+}
+
+
+
+
+
+
+

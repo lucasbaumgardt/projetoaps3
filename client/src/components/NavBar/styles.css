@@ -1,0 +1,277 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 0 1%;
+    background-color: #222222;
+    /* background-color: #0c0c0c; */
+    color: white;
+    position: sticky;
+    top: 0; /* Fixa o cabeçalho no topo */
+    z-index: 1;
+}
+
+.nav-home-return {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35px;
+    height: 35px;
+    color: #3cb62c;
+}
+
+.nav__h__title {
+    text-align: center;
+    color: white;
+    padding: 2% 0 1% 0;
+    font-family: var(--primary-font);
+}
+
+.enter__fullscreen {
+    color: #3cb62c;
+    width: 40px;
+    height: 40px;
+    margin-left: 30%;
+}
+
+.exit__fullscreen {
+    color: #0c0c0c;
+    width: 40px;
+    height: 40px;
+    margin-left: 30%;
+}
+
+.div_logout {
+    width: 100%;
+}
+
+.logout {
+    width: 35px;
+    height: 35px;
+    color: white;
+    /* color: rgb(71, 71, 71); */
+    cursor: pointer;
+}
+
+.div_center_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+ul {
+    width: 100%;
+    position: absolute;
+    top: 100%; /* Posiciona o topo da lista abaixo do input */
+    left: 0;
+    z-index: 1; /* Garante que a lista fique sobre outros elementos se necessário */
+    background-color: #b4b4b4;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Inicialmente oculta a lista */
+  }
+
+ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.div_center_nav:hover ul {
+    display: block;
+}
+
+.search-bar{
+    width: 100%;
+    height: 50px;
+    --tw-bg-opacity: 1;
+    background-color: #b4b4b4;
+    border: solid 2px #525252;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 1px transparent;
+    transition: box-shadow .4s linear,border-color .4s linear;
+    outline: none;
+    padding: 15px;
+    color: #000;
+}
+
+.cart {
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+    color: white;
+    /* color: rgb(71, 71, 71); */
+    cursor: pointer;
+    float: right;
+}
+
+.menu_nav {
+    width: 35px;
+    height: 35px;
+    color: white;
+    /* color: rgb(71, 71, 71); */
+    cursor: pointer;
+    float: right;
+}
+
+.div_cart_menu {
+    width: 100%;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  /* Estilo do conteúdo do modal */
+  .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #0c0c0c; /* Cor de fundo do modal */
+    overflow: auto;
+  }
+  
+  .modal_titulo {
+    width: 100%;
+    height: 100px;
+  }
+
+  /* Estilo do botão de fechar */
+  .menu_nav_close {
+    /* position: absolute; */
+    width: 35px;
+    height: 35px;
+    float: right;
+    /* top: 10px;
+    right: 10px; */
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+@media (min-width: 1280px) and (max-width: 1368px) {
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1368px) and (max-width: 1400px) {
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px) { 
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: rgb(71, 71, 71);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+    .modal_titulo {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+    .menu_nav_close {
+        /* position: absolute; */
+        margin-right: 4%;
+        width: 35px;
+        height: 35px;
+        color: white;
+        cursor: pointer;
+    }
+}
